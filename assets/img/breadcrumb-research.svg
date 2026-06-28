@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Affinity map: raw research notes clustered into four themes — choice drives it, eyes not a leash, too much to sift, no two kids alike.">
+  <rect width="1920" height="1080" fill="#f6f3ec"/>
+  <text x="100" y="112" fill="#8f8c80" font-size="26" font-weight="700" letter-spacing="3">Affinity map</text>
+  <text x="100" y="178" fill="#14130d" font-size="48" font-weight="800">From raw notes to four themes</text>
+
+  <rect x="100" y="220" width="380" height="60" rx="10" fill="#f4d290"/>
+  <text x="290" y="258" text-anchor="middle" fill="#6b4a12" font-size="27" font-weight="700">Choice drives it</text>
+  <rect x="100" y="300" width="380" height="120" rx="10" fill="#fbeccf" stroke="#ecd49a" stroke-width="1.5"/>
+  <text x="290" y="369" text-anchor="middle" fill="#14130d" font-size="26">Tunes out when assigned</text>
+  <rect x="100" y="444" width="380" height="120" rx="10" fill="#fbeccf" stroke="#ecd49a" stroke-width="1.5"/>
+  <text x="290" y="513" text-anchor="middle" fill="#14130d" font-size="26">Lights up when they pick</text>
+  <rect x="100" y="588" width="380" height="120" rx="10" fill="#fbeccf" stroke="#ecd49a" stroke-width="1.5"/>
+  <text x="290" y="657" text-anchor="middle" fill="#14130d" font-size="26">Boredom = back button</text>
+
+  <rect x="546" y="220" width="380" height="60" rx="10" fill="#a9e0cf"/>
+  <text x="736" y="258" text-anchor="middle" fill="#0f5a48" font-size="27" font-weight="700">Eyes, not a leash</text>
+  <rect x="546" y="300" width="380" height="120" rx="10" fill="#ddf3ec" stroke="#b6e2d5" stroke-width="1.5"/>
+  <text x="736" y="369" text-anchor="middle" fill="#14130d" font-size="26">Just wants it to be safe</text>
+  <rect x="546" y="444" width="380" height="120" rx="10" fill="#ddf3ec" stroke="#b6e2d5" stroke-width="1.5"/>
+  <text x="736" y="513" text-anchor="middle" fill="#14130d" font-size="26">Check in, not run it</text>
+  <rect x="546" y="588" width="380" height="120" rx="10" fill="#ddf3ec" stroke="#b6e2d5" stroke-width="1.5"/>
+  <text x="736" y="657" text-anchor="middle" fill="#14130d" font-size="26">Show me what they do</text>
+
+  <rect x="992" y="220" width="380" height="60" rx="10" fill="#c4bdf3"/>
+  <text x="1182" y="258" text-anchor="middle" fill="#3f348a" font-size="27" font-weight="700">Too much to sift</text>
+  <rect x="992" y="300" width="380" height="120" rx="10" fill="#ece9ff" stroke="#cfc9f3" stroke-width="1.5"/>
+  <text x="1182" y="369" text-anchor="middle" fill="#14130d" font-size="26">YouTube is a rabbit hole</text>
+  <rect x="992" y="444" width="380" height="120" rx="10" fill="#ece9ff" stroke="#cfc9f3" stroke-width="1.5"/>
+  <text x="1182" y="513" text-anchor="middle" fill="#14130d" font-size="26">Too many apps to vet</text>
+  <rect x="992" y="588" width="380" height="120" rx="10" fill="#ece9ff" stroke="#cfc9f3" stroke-width="1.5"/>
+  <text x="1182" y="657" text-anchor="middle" fill="#14130d" font-size="26">Ads everywhere</text>
+
+  <rect x="1438" y="220" width="380" height="60" rx="10" fill="#f1b2c1"/>
+  <text x="1628" y="258" text-anchor="middle" fill="#8a2f44" font-size="27" font-weight="700">No two kids alike</text>
+  <rect x="1438" y="300" width="380" height="120" rx="10" fill="#fde7ea" stroke="#f3c2cd" stroke-width="1.5"/>
+  <text x="1628" y="369" text-anchor="middle" fill="#14130d" font-size="26">Mine builds, won't read</text>
+  <rect x="1438" y="444" width="380" height="120" rx="10" fill="#fde7ea" stroke="#f3c2cd" stroke-width="1.5"/>
+  <text x="1628" y="513" text-anchor="middle" fill="#14130d" font-size="26">Some roam, some don't</text>
+  <rect x="1438" y="588" width="380" height="120" rx="10" fill="#fde7ea" stroke="#f3c2cd" stroke-width="1.5"/>
+  <text x="1628" y="657" text-anchor="middle" fill="#14130d" font-size="26">Two siblings, two styles</text>
+
+  <rect x="100" y="800" width="1718" height="150" rx="16" fill="#efe9dd"/>
+  <text x="959" y="868" text-anchor="middle" fill="#8f8c80" font-size="22" font-weight="700" letter-spacing="2">WHAT IT GAVE US</text>
+  <text x="959" y="912" text-anchor="middle" fill="#14130d" font-size="30" font-weight="600">Clustered, these notes became the four insights that shaped every decision.</text>
+</svg>

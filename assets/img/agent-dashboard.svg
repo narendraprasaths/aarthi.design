@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a2c66"/>
+      <stop offset="1" stop-color="#0c3a86"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2070d6"/>
+      <stop offset="1" stop-color="#2a4fc6"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16356a" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#16356a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="11" flood-color="#16234a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- App background -->
+  <rect x="0" y="0" width="1600" height="1000" fill="#eef1f6"/>
+
+  <!-- ===== Sidebar ===== -->
+  <rect x="0" y="0" width="300" height="1000" fill="url(#side)"/>
+
+  <!-- Logo -->
+  <circle cx="40" cy="46" r="16" fill="#ffffff"/>
+  <path d="M40 35 a11 11 0 1 0 8 19" fill="none" stroke="#0c3a86" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="66" y="53" fill="#ffffff" font-size="21" font-weight="700">Agent Hub</text>
+
+  <!-- Active: Home -->
+  <rect x="12" y="92" width="276" height="42" rx="11" fill="#ffffff" fill-opacity="0.15"/>
+  <rect x="12" y="92" width="4" height="42" rx="2" fill="#7fb3ff"/>
+  <g transform="translate(25,103)" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9 L9 3 L16 9"/><path d="M4 8 V15 H14 V8"/></g>
+  <text x="56" y="118" fill="#ffffff" font-size="15" font-weight="700">Home</text>
+
+  <!-- Section: Agent Management -->
+  <text x="24" y="166" fill="#8aa3cc" font-size="11" font-weight="700" letter-spacing="1.3">AGENT MANAGEMENT</text>
+  <g fill="none" stroke="#aebfde" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(25,181)"><circle cx="9" cy="6" r="3"/><path d="M3 16 a6 6 0 0 1 12 0"/></g>
+    <g transform="translate(25,217)"><circle cx="7" cy="6" r="3"/><path d="M2 16 a5.5 5.5 0 0 1 10 0"/><path d="M14 7 V13 M11 10 H17"/></g>
+    <g transform="translate(25,253)"><circle cx="7" cy="6" r="3"/><path d="M2 16 a5.5 5.5 0 0 1 9 0"/><path d="M12.5 14 l3.5 -3.5 1.5 1.5 -3.5 3.5 z"/></g>
+    <g transform="translate(25,289)"><rect x="3" y="3" width="12" height="13" rx="1"/><path d="M6 6 h2 M10 6 h2 M6 9 h2 M10 9 h2 M8 16 v-3 h2 v3"/></g>
+    <g transform="translate(25,325)"><rect x="2" y="4" width="14" height="10" rx="2"/><circle cx="6" cy="9" r="2"/><path d="M10 7 h4 M10 11 h4"/></g>
+    <g transform="translate(25,361)"><circle cx="9" cy="7" r="4"/><path d="M6 11 l-1 5 4 -2 4 2 -1 -5"/></g>
+  </g>
+  <text x="56" y="191" fill="#cdd9ee" font-size="15">Registered Agents</text>
+  <text x="56" y="227" fill="#cdd9ee" font-size="15">Onboarding Agents</text>
+  <text x="56" y="263" fill="#cdd9ee" font-size="15">Agent Requests</text>
+  <text x="56" y="299" fill="#cdd9ee" font-size="15">Sales Office</text>
+  <text x="56" y="335" fill="#cdd9ee" font-size="15">Licences</text>
+  <text x="56" y="371" fill="#cdd9ee" font-size="15">Benefits</text>
+
+  <!-- Section: Customer Management -->
+  <text x="24" y="416" fill="#8aa3cc" font-size="11" font-weight="700" letter-spacing="1.3">CUSTOMER MANAGEMENT</text>
+  <g transform="translate(25,433)" fill="none" stroke="#aebfde" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="6" r="2.6"/><path d="M2 15 a5 5 0 0 1 10 0"/><circle cx="13" cy="7" r="2.2"/><path d="M11.5 15 a4.5 4.5 0 0 1 6 -1"/></g>
+  <text x="56" y="443" fill="#cdd9ee" font-size="15">Customers</text>
+
+  <!-- Section: Statements & Reports -->
+  <text x="24" y="488" fill="#8aa3cc" font-size="11" font-weight="700" letter-spacing="1.3">STATEMENTS &amp; REPORTS</text>
+  <g fill="none" stroke="#aebfde" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(25,505)"><path d="M9 2 L15 4 V9 C15 13 12 15 9 16 C6 15 3 13 3 9 V4 Z"/><path d="M6.5 9 l2 2 3.5 -4"/></g>
+    <g transform="translate(25,541)"><path d="M5 2 h6 l4 4 v10 h-10 z"/><path d="M11 2 v4 h4"/><path d="M7 11 h6 M7 14 h4"/></g>
+    <g transform="translate(25,577)"><path d="M2 16 h16"/><rect x="3" y="10" width="3" height="6"/><rect x="8" y="6" width="3" height="10"/><rect x="13" y="12" width="3" height="4"/></g>
+  </g>
+  <text x="56" y="515" fill="#cdd9ee" font-size="15">Insurance Statements</text>
+  <text x="56" y="551" fill="#cdd9ee" font-size="15">PRS Ledger / Summary</text>
+  <text x="56" y="587" fill="#cdd9ee" font-size="15">Reports</text>
+
+  <!-- Section: Accounts -->
+  <text x="24" y="632" fill="#8aa3cc" font-size="11" font-weight="700" letter-spacing="1.3">ACCOUNTS</text>
+  <g fill="none" stroke="#aebfde" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(25,649)"><circle cx="9" cy="9" r="3"/><path d="M9 1 v2 M9 15 v2 M1 9 h2 M15 9 h2 M3.6 3.6 l1.4 1.4 M13 13 l1.4 1.4 M14.4 3.6 l-1.4 1.4 M3.6 14.4 l1.4 -1.4"/></g>
+    <g transform="translate(25,685)"><path d="M11 3 H4 V15 H11"/><path d="M8 9 H17 M14 6 l3 3 -3 3"/></g>
+  </g>
+  <text x="56" y="659" fill="#cdd9ee" font-size="15">Settings</text>
+  <text x="56" y="695" fill="#cdd9ee" font-size="15">Log Out</text>
+
+  <!-- ===== Top bar ===== -->
+  <text x="340" y="60" font-size="27" font-weight="700" fill="#0f2547">Welcome back, Alex Tan</text>
+  <text x="1494" y="44" text-anchor="end" font-size="16" font-weight="700" fill="#0f2547">Alex Tan</text>
+  <text x="1494" y="66" text-anchor="end" font-size="13" fill="#7a869a">General Agent Manager</text>
+  <circle cx="1530" cy="50" r="22" fill="#d7e6fb"/>
+  <text x="1530" y="57" text-anchor="middle" font-size="17" font-weight="700" fill="#1a468f">AT</text>
+
+  <!-- ===== Stat cards ===== -->
+  <g filter="url(#sh)">
+    <rect x="340" y="110" width="290" height="160" rx="16" fill="#ffffff"/>
+    <rect x="650" y="110" width="290" height="160" rx="16" fill="#ffffff"/>
+    <rect x="960" y="110" width="290" height="160" rx="16" fill="#ffffff"/>
+    <rect x="1270" y="110" width="290" height="160" rx="16" fill="url(#cta)"/>
+  </g>
+  <!-- Card 1 -->
+  <text x="365" y="158" font-size="15" fill="#6b7689">Total Recruited Agents</text>
+  <text x="365" y="222" font-size="48" font-weight="800" fill="#11295a">40</text>
+  <text x="365" y="252" font-size="14" font-weight="600" fill="#2563eb">View all</text>
+  <!-- Card 2 -->
+  <text x="675" y="158" font-size="15" fill="#6b7689">Onboarding Agents</text>
+  <text x="675" y="222" font-size="48" font-weight="800" fill="#11295a">34</text>
+  <text x="675" y="252" font-size="14" font-weight="600" fill="#2563eb">View all</text>
+  <!-- Card 3 -->
+  <text x="985" y="158" font-size="15" fill="#6b7689">Pending Approval</text>
+  <text x="985" y="222" font-size="48" font-weight="800" fill="#11295a">5</text>
+  <text x="985" y="252" font-size="14" font-weight="600" fill="#2563eb">View all</text>
+  <!-- Card 4 CTA -->
+  <text x="1320" y="197" font-size="18" font-weight="700" fill="#ffffff">Register new agent</text>
+  <path d="M1500 189 l8 8 -8 8" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===== Chart card ===== -->
+  <g filter="url(#sh)"><rect x="340" y="300" width="1220" height="600" rx="16" fill="#ffffff"/></g>
+
+  <!-- Tabs -->
+  <rect x="364" y="330" width="156" height="38" rx="19" fill="#e9eff8"/>
+  <text x="442" y="355" text-anchor="middle" font-size="15" font-weight="700" fill="#11295a">Personal sales</text>
+  <text x="560" y="355" font-size="15" fill="#7a869a">Group sales</text>
+  <text x="700" y="355" font-size="15" fill="#7a869a">Unit group sales</text>
+  <!-- Right controls -->
+  <rect x="1330" y="330" width="92" height="38" rx="10" fill="#f3f6fa" stroke="#e4e8ef"/>
+  <text x="1352" y="355" font-size="14" font-weight="600" fill="#3a4660">2025</text>
+  <path d="M1402 346 l5 5 5 -5" fill="none" stroke="#3a4660" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1432" y="330" width="54" height="38" rx="10" fill="#f3f6fa" stroke="#e4e8ef"/>
+  <path d="M1446 354 l6 -7 5 4 6 -8" fill="none" stroke="#3a4660" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1496" y="330" width="44" height="38" rx="10" fill="#f3f6fa" stroke="#e4e8ef"/>
+  <circle cx="1510" cy="349" r="1.7" fill="#3a4660"/><circle cx="1518" cy="349" r="1.7" fill="#3a4660"/><circle cx="1526" cy="349" r="1.7" fill="#3a4660"/>
+
+  <!-- Vertical guide lines -->
+  <g stroke="#eceff4" stroke-width="1.5">
+    <line x1="430" y1="649" x2="430" y2="800"/>
+    <line x1="524.5" y1="735" x2="524.5" y2="800"/>
+    <line x1="619" y1="692" x2="619" y2="800"/>
+    <line x1="713.5" y1="699" x2="713.5" y2="800"/>
+    <line x1="808" y1="638" x2="808" y2="800"/>
+    <line x1="902.5" y1="577" x2="902.5" y2="800"/>
+    <line x1="997" y1="591" x2="997" y2="800"/>
+    <line x1="1091.5" y1="534" x2="1091.5" y2="800"/>
+    <line x1="1186" y1="613" x2="1186" y2="800"/>
+    <line x1="1280.5" y1="562" x2="1280.5" y2="800"/>
+    <line x1="1375" y1="620" x2="1375" y2="800"/>
+    <line x1="1469.5" y1="573" x2="1469.5" y2="800"/>
+  </g>
+
+  <!-- Area under solid line -->
+  <path d="M430 800 L430 649 L524.5 735 L619 692 L713.5 699 L808 638 L902.5 577 L997 591 L1091.5 534 L1186 613 L1280.5 562 L1375 620 L1469.5 573 L1469.5 800 Z" fill="url(#area)"/>
+
+  <!-- Dotted target line -->
+  <polyline points="430,692 524.5,670 619,649 713.5,602 808,627 902.5,670 997,649 1091.5,555 1186,642 1280.5,541 1375,512 1469.5,519" fill="none" stroke="#37b1d9" stroke-width="2.6" stroke-dasharray="2 8" stroke-linecap="round"/>
+
+  <!-- Solid line -->
+  <polyline points="430,649 524.5,735 619,692 713.5,699 808,638 902.5,577 997,591 1091.5,534 1186,613 1280.5,562 1375,620 1469.5,573" fill="none" stroke="#11295a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Markers -->
+  <g fill="#ffffff" stroke="#11295a" stroke-width="3">
+    <circle cx="430" cy="649" r="6"/><circle cx="524.5" cy="735" r="6"/><circle cx="619" cy="692" r="6"/><circle cx="713.5" cy="699" r="6"/><circle cx="808" cy="638" r="6"/><circle cx="902.5" cy="577" r="6"/><circle cx="997" cy="591" r="6"/><circle cx="1091.5" cy="534" r="6"/><circle cx="1186" cy="613" r="6"/><circle cx="1280.5" cy="562" r="6"/><circle cx="1375" cy="620" r="6"/><circle cx="1469.5" cy="573" r="6"/>
+  </g>
+
+  <!-- Month labels -->
+  <g fill="#2563eb" font-size="14" text-anchor="middle">
+    <text x="430" y="848">Jan</text><text x="524.5" y="848">Feb</text><text x="619" y="848">Mar</text><text x="713.5" y="848">Apr</text><text x="808" y="848">May</text><text x="902.5" y="848">Jun</text><text x="997" y="848">Jul</text><text x="1091.5" y="848">Aug</text><text x="1186" y="848">Sep</text><text x="1280.5" y="848">Oct</text><text x="1375" y="848">Nov</text><text x="1469.5" y="848">Dec</text>
+  </g>
+</svg>

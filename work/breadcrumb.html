@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breadcrumb — Case Study · Aarthi</title>
+  <meta name="description" content="Breadcrumb — an iPad app designed as a safe space for young learners to explore and build the habit of learning, with parents as partners." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Schibsted+Grotesk:wght@400..600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css?v=41" />
+  <link rel="stylesheet" href="../assets/css/case.css?v=41" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="../index.html" class="nav__logo">Aarthi<span class="dot">.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="../index.html#work">Work</a>
+      <a href="../about.html">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+      <span class="theme-toggle__icon">◐</span>
+    </button>
+  </header>
+
+  <main class="case">
+    <a href="../index.html#work" class="case__back reveal">← All work</a>
+
+    <header class="case__hero reveal">
+      <div class="case__meta">
+        <span class="tag">E-learning</span>
+        <span class="tag tag--muted">UI/UX Designer</span>
+      </div>
+      <h1 class="case__title">The safest place for a child to learn</h1>
+      <p class="case__lede">
+        Breadcrumb is an iPad app built to <em>nurture the habit of learning</em>.
+        Instead of telling children what to learn, it leaves a trail of curated
+        activities they can follow at their own pace — safely, with parents as partners.
+      </p>
+    </header>
+
+    <div class="case__cover reveal" data-tone="sky">
+      <span class="case__zoom"><img src="../assets/img/breadcrumb-cover.png" alt="Breadcrumb — workshops and events across iPad and desktop" /></span>
+    </div>
+
+    <section class="case__facts reveal">
+      <div><h4>Role</h4><p>UI/UX Designer</p></div>
+      <div><h4>Industry</h4><p>E-learning</p></div>
+      <div><h4>Platform</h4><p>iPad · Responsive web app</p></div>
+    </section>
+
+    <article class="case__body">
+      <section class="reveal">
+        <h2>Overview</h2>
+        <p>
+          Breadcrumb takes its name from how it works. Rather than dumping the whole
+          internet on a child, it leaves a trail of curated, age-appropriate "crumbs"
+          a child can follow at their own pace, toward goals they choose for themselves.
+          It's a self-directed learning app for kids aged 4+, built on a simple belief:
+          <strong>children are born curious</strong> — the job isn't to direct them,
+          but to give them a safe trail to follow.
+        </p>
+        <p>
+          I came in at the idea stage and shaped the product <strong>0→1</strong> —
+          research, IA, interaction and UI — across an iPad app for children and a
+          companion web app for parents.
+        </p>
+      </section>
+
+      <section class="reveal">
+        <h2>The problem</h2>
+        <p>
+          For parents, the open internet is an overwhelming, unsafe place to set a
+          child loose. For kids, most "educational" apps prescribe a fixed path and
+          quietly strip away the <em>autonomy</em> that makes learning stick. Breadcrumb
+          had to hold both at once: real freedom for the child, real safety and
+          oversight for the parent — without either one cancelling the other.
+        </p>
+        <blockquote>
+          "Self-directed learning does not mean no adult involvement. It means no adult
+          force or control."
+          <cite>— Carol Black · a principle that anchored the design</cite>
+        </blockquote>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-explore.png" alt="Explore — activities and Apple Pencil journaling on iPad" /></span>
+          <figcaption>Activities surface as a trail kids can follow on their own.</figcaption>
+        </figure>
+      </section>
+
+      <section class="reveal">
+        <h2>Research</h2>
+        <p>
+          Breadcrumb has two users with very different needs, so I researched both.
+          With <strong>children</strong>, the question was what keeps them exploring
+          on their own; with <strong>parents</strong>, it was what earns enough trust
+          to hand over the iPad. Mapping those side by side set the guardrails for
+          every decision that followed.
+        </p>
+        <p>I grounded the work in three inputs:</p>
+        <div class="case__methods">
+          <div class="case__method">
+            <span>01</span>
+            <h5>Parent conversations</h5>
+            <p>How children already learn at home, and what would earn a parent's trust.</p>
+          </div>
+          <div class="case__method">
+            <span>02</span>
+            <h5>Field observation</h5>
+            <p>How young kids behave when given choice versus instruction.</p>
+          </div>
+          <div class="case__method">
+            <span>03</span>
+            <h5>Learning theory</h5>
+            <p>Self-directed learning and Gardner's Multiple Intelligences.</p>
+          </div>
+        </div>
+        <figure class="case__figure" data-tone="sky">
+          <img src="../assets/img/breadcrumb-research.svg?v=2" alt="Affinity map clustering research notes into four themes: choice drives it, eyes not a leash, too much to sift, no two kids alike" />
+          <figcaption>Field notes, clustered into the four themes that became our insights.</figcaption>
+        </figure>
+        <h3 class="case__subhead">Four insights shaped everything that came after</h3>
+        <div class="case__cards case__cards--2">
+          <div class="case__card">
+            <span class="case__card-num">01</span>
+            <h4>Choice is the engagement</h4>
+            <p>Children stay with learning when they pick it; the moment it feels assigned, attention drops. Lead with discovery, not a syllabus.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">02</span>
+            <h4>Parents want to see, not steer</h4>
+            <p>Trust came from visibility, not lockdown — oversight and the option to step in, without running the session.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">03</span>
+            <h4>Abundance is its own problem</h4>
+            <p>An open internet of "educational" content overwhelms parents and isn't safe. The value was curation, not more content.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">04</span>
+            <h4>One size fits no child</h4>
+            <p>Kids gravitate to different activities, so content had to span many intelligences — structured and exploratory learners both find a way in.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Approach</h2>
+        <p>
+          The research pointed to a handful of non-negotiables. I turned them into
+          design principles — the rules every screen had to answer to.
+        </p>
+        <ul class="case__list">
+          <li><strong>Discovery over instruction.</strong> Never tell a child what to learn; design the moment of choosing.</li>
+          <li><strong>Visibility over control.</strong> Earn a parent's trust by showing what's happening, not by locking the child out.</li>
+          <li><strong>Curate, don't accumulate.</strong> A small, safe, handpicked library beats infinite content.</li>
+          <li><strong>Many ways in.</strong> Design for different kinds of learners — and make every win feel encouraging, never ranked.</li>
+        </ul>
+      </section>
+
+      <section class="reveal">
+        <h2>Wireframes</h2>
+        <p>
+          With the principles set, I worked the structure out in low fidelity first —
+          how Explore, Schedule and Journal fit together, how a child moves between
+          discovering and doing, and where safety cues and parental controls live.
+          Big tap targets, few choices per screen, and an obvious sense of what's next.
+        </p>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-wireframes.png" alt="Low-fidelity wireframes of the key flows" /></span>
+          <figcaption>Low-fidelity structure</figcaption>
+        </figure>
+      </section>
+
+      <section class="reveal">
+        <h2>The solution</h2>
+        <p>
+          From those wireframes, the product came together as four connected modes,
+          a layer of delight to keep kids coming back, and the safety scaffolding
+          parents needed to trust it.
+        </p>
+      </section>
+
+      <section class="reveal">
+        <h2>Designing for self-direction</h2>
+        <p>The product is built around four simple modes a child moves between freely:</p>
+        <div class="case__cards case__cards--2">
+          <div class="case__card">
+            <span class="case__card-num">01</span>
+            <h4>Explore</h4>
+            <p>Browse curated Collections, or follow a Suggested Learning Path when a child wants more structure — open discovery and gentle guidance in one place.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">02</span>
+            <h4>Schedule</h4>
+            <p>Children set their own learning intentions for the day, taking ownership of what they'll do.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">03</span>
+            <h4>Journal</h4>
+            <p>A space to reflect on what they explored, turning activity into a felt sense of progress.</p>
+          </div>
+          <div class="case__card">
+            <span class="case__card-num">04</span>
+            <h4>Workshops</h4>
+            <p>Live workshops a child can flag with one tap — a parent books it on the web, then it returns to the iPad to attend.</p>
+          </div>
+        </div>
+        <p>
+          Content spans a <strong>Multiple Intelligences</strong> range — from origami
+          to STEM to body percussion — so different kinds of learners each find their
+          own way in, and progress is shown to motivate, never to rank.
+        </p>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-modes.png" alt="Explore, Schedule and Journal screens" /></span>
+          <figcaption>Explore · Schedule · Journal</figcaption>
+        </figure>
+      </section>
+
+      <section class="reveal">
+        <h2>Designing for delight</h2>
+        <p>
+          Self-direction only works if a child <em>wants</em> to come back. So I built
+          in small moments of encouragement — making the app feel personal, playful,
+          and worth returning to.
+        </p>
+        <div class="case__features">
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5a4.5 4.5 0 0 0 7 0"/><path d="M9 9.5v.01"/><path d="M15 9.5v.01"/></svg>
+            </span>
+            <div>
+              <h4>Memoji profiles</h4>
+              <p>Kids pick a Memoji for their profile — a small act of ownership that makes the space feel like theirs.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3z"/><path d="M18.6 14.2l.8 1.7 1.7.8-1.7.8-.8 1.7-.8-1.7-1.7-.8 1.7-.8.8-1.7z"/></svg>
+            </span>
+            <div>
+              <h4>Confetti, every time</h4>
+              <p>Milestones trigger celebratory pop-ups — each with its own style and confetti — so progress always feels worth a cheer.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l3.8-.9L17.3 9.6a2 2 0 0 0-2.9-2.9L4.9 16.2 4 20z"/><path d="M13.5 7.5l3 3"/></svg>
+            </span>
+            <div>
+              <h4>Apple Pencil journaling</h4>
+              <p>Journaling runs on PencilKit, so kids draw and write by hand — reflection becomes something they actually enjoy.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 16 9 10 13 14 21 6"/><polyline points="15 6 21 6 21 12"/></svg>
+            </span>
+            <div>
+              <h4>Progress they can see</h4>
+              <p>Each child's profile shows how far they've come, turning effort into a visible, motivating record.</p>
+            </div>
+          </div>
+        </div>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-delight.png" alt="Celebratory confetti moment when a child completes an activity" /></span>
+          <figcaption>Memoji · confetti · journaling</figcaption>
+        </figure>
+      </section>
+
+      <section class="reveal">
+        <h2>Designing for trust &amp; safety</h2>
+        <p>
+          Safety is the whole product, so it had to be visible — not buried in
+          settings.
+        </p>
+        <div class="case__features">
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+            </span>
+            <div>
+              <h4>Distraction-free content</h4>
+              <p>A curated, ad-free library (2,750+ cards) with a calm video interface — no autoplay, no algorithmic rabbit holes.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 3.6a3 3 0 0 1 0 5.8"/><path d="M21 20c0-2.6-1.6-4.8-3.8-5.7"/></svg>
+            </span>
+            <div>
+              <h4>Profiles per child</h4>
+              <p>Each child gets a passcode-protected profile, so siblings learn at their own level.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+            </span>
+            <div>
+              <h4>A parent dashboard</h4>
+              <p>Parents oversee exploration and manage screen time from the browser — present and in control, without taking over.</p>
+            </div>
+          </div>
+          <div class="case__feature">
+            <span class="ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l2 2 3-3"/><path d="M3.5 13l2 2 3-3"/><line x1="13" y1="6" x2="20" y2="6"/><line x1="13" y1="13" x2="20" y2="13"/><line x1="4" y1="20" x2="20" y2="20"/></svg>
+            </span>
+            <div>
+              <h4>Activity checklists</h4>
+              <p>Materials and supervision needs are flagged up front, so an adult can prep and step in only where needed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Bridging parent and child</h2>
+        <p>
+          Breadcrumb is really two products in one — a child's iPad app and a parent's
+          web portal. The craft was connecting them so a parent stays in control
+          without ever getting in the child's way.
+        </p>
+
+        <h3 class="case__subhead">Onboarding adapts to who starts</h3>
+        <p>
+          Onboarding flexes to whoever opens the app. If a child taps "I'm a learner,"
+          they set up their own profile first, then a parent account is added. If a
+          parent starts, they set up first, then hand the iPad over. Either path ends
+          the same way — a child profile linked to a parent — so oversight is built in
+          from the very first launch.
+        </p>
+
+        <h3 class="case__subhead">The parent watches from their portal</h3>
+        <p>
+          From the web portal, parents follow their child's progress and notice what
+          they keep coming back to — turning oversight into genuine insight about a
+          child's interests.
+        </p>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-portal.png" alt="Parent web portal showing a child's progress and interests" /></span>
+          <figcaption>Oversight that doubles as insight.</figcaption>
+        </figure>
+
+      </section>
+
+      <section class="reveal">
+        <h2>Final UI</h2>
+        <p>
+          The visual language is calm and friendly — soft, age-appropriate and
+          accessible — so the app feels like a safe space, not a toy fighting for
+          attention. Colour and iconography carry the safety cues, and progress is
+          celebrated gently rather than scored.
+        </p>
+        <figure class="case__figure" data-tone="sky">
+          <span class="case__zoom"><img src="../assets/img/breadcrumb-final.png" alt="The shipped Breadcrumb experience on iPad" /></span>
+          <figcaption>The shipped Explore experience on iPad.</figcaption>
+        </figure>
+      </section>
+
+      <section class="reveal">
+        <h2>Outcome</h2>
+        <p>
+          Breadcrumb shipped as a live iPad app on the App Store, with a companion web
+          app for parents. Of everything we built, the <strong>workshop hand-off
+          resonated most with parents</strong> — proof that the "freedom for the child,
+          control for the parent" bet paid off.
+        </p>
+        <div class="case__outcome">
+          <div><strong>62%</strong><span>User retention &amp; growth</span></div>
+          <div><strong>4.5</strong><span>User satisfaction</span></div>
+          <div><strong>35%</strong><span>Increased learning</span></div>
+        </div>
+      </section>
+
+    </article>
+
+    <nav class="case__next reveal" aria-label="Next case study">
+      <span>Next</span>
+      <a href="swish.html">Swish — rebuilding a community worth opening →</a>
+    </nav>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Aarthi. Designed & built from scratch.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="../assets/js/main.js?v=27"></script>
+</body>
+</html>

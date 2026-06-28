@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Aarthi</title>
+  <meta name="description" content="About Aarthi — a product designer drawn to regulated, high-stakes spaces where trust is the whole product." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Schibsted+Grotesk:wght@400..600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css?v=41" />
+</head>
+<body>
+  <a href="#story" class="skip-link">Skip to content</a>
+
+  <!-- ===== Nav (minimalist, centered) ===== -->
+  <header class="nav" id="top">
+    <a href="index.html" class="nav__logo">Aarthi<span class="dot">.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#experiments">Play</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+  </header>
+
+  <main>
+    <!-- ===== About hero ===== -->
+    <section class="hero">
+      <span class="block__label reveal">— About</span>
+      <h1 class="hero__title reveal" style="margin-top:18px;">
+        Making things with <em>intention</em>,<br />not just attention.
+      </h1>
+    </section>
+
+    <!-- ===== Intro: portrait + lead ===== -->
+    <section class="block aboutpage" id="story" style="border-top:none;padding-top:0;">
+      <div class="aboutpage__intro aboutpage__intro--noimg">
+        <!-- Portrait hidden for now. To bring it back: remove style="display:none" below and the "aboutpage__intro--noimg" class above. -->
+        <div class="portrait reveal" data-tone="teal" style="display:none">
+          <span>Replace — your photo · assets/img/aarthi.jpg</span>
+        </div>
+        <div class="reveal">
+          <p class="about__lead" style="margin-bottom:24px;">
+            Hi, I'm Aarthi. I design and ship product UX, <em>end to end</em>.
+          </p>
+          <p class="aboutpage__p">
+            My design journey started with a challenge I chose to enter — and won.
+            That win turned into an internship.
+          </p>
+          <p class="aboutpage__p">
+            Early on, I worked at a design agency that built both
+            <strong>products and services</strong> — which threw me into a wide range
+            of problems and taught me to adapt fast. That breadth still shapes how I
+            work: comfortable moving between research, systems and high-fidelity craft,
+            across whatever a problem needs.
+          </p>
+          <p class="aboutpage__p">
+            Lately I've been folding AI deeper into my work — not just in my design
+            process, but by building my own small software with it: a
+            <strong>password manager</strong>, an <strong>expense tracker</strong>, and
+            a handful of experiments. Designing and shipping my own tools keeps me
+            close to how things actually get built.
+          </p>
+          <p class="aboutpage__p">
+            And when I'm not designing, I'm usually making something else — gardening,
+            drawing, reading, or crafting. Creativity isn't just for screens.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Background: experience timeline + skill chips ===== -->
+    <section class="block aboutpage__details">
+      <div class="block__head reveal" style="margin-bottom:44px;">
+        <span class="block__label">— My professional journey</span>
+      </div>
+      <div class="resume reveal">
+        <div class="resume__exp">
+          <h4 class="resume__label">Experience</h4>
+          <ol class="timeline">
+            <li>
+              <span class="timeline__logo"><img src="assets/img/logo-snappymob.svg" alt="Snappymob" /></span>
+              <span class="timeline__role">Senior UI/UX Designer</span>
+              <span class="timeline__co">Snappymob Sdn Bhd</span>
+              <span class="timeline__date">2025 — Present</span>
+            </li>
+            <li>
+              <span class="timeline__logo"><img src="assets/img/logo-golden-equator.svg" alt="Golden Equator" /></span>
+              <span class="timeline__role">Product Designer</span>
+              <span class="timeline__co">Golden Equator</span>
+              <span class="timeline__date">2021 — 2024</span>
+            </li>
+            <li>
+              <span class="timeline__logo"><img src="assets/img/logo-nfn-labs.svg" alt="NFN Labs" /></span>
+              <span class="timeline__role">UI/UX Designer</span>
+              <span class="timeline__co">NFN Labs</span>
+              <span class="timeline__date">2019 — 2021</span>
+            </li>
+            <li>
+              <span class="timeline__logo"><img src="assets/img/logo-guvi.svg" alt="GUVI" /></span>
+              <span class="timeline__role">Design Intern</span>
+              <span class="timeline__co">GUVI Geek Networks</span>
+              <span class="timeline__date">2018 — 2019</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="block contact reveal">
+      <span class="block__label">— What's next</span>
+      <h2 class="contact__title">Let's make something worth <em>trusting.</em></h2>
+      <p class="contact__sub">Got a hard problem? I'd love to hear it.</p>
+      <div class="contact__links">
+        <a href="mailto:hello@aarthi.design">Email <span>↗</span></a>
+        <a href="index.html#work">See the work <span>→</span></a>
+        <a href="#" data-replace="resume">Résumé <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Aarthi — designed & built from scratch.</span>
+    <span class="footer__loc">India · UTC+5:30</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/js/main.js?v=27"></script>
+</body>
+</html>
