@@ -19,8 +19,8 @@
 .tag--muted { color: var(--ink-faint); }
 
 .case__title {
-  font-family: var(--font-display); font-weight: 700;
-  font-size: clamp(2.3rem, 6.5vw, 4.4rem); line-height: 1; letter-spacing: -0.035em;
+  font-family: var(--font-headline); font-weight: 400;
+  font-size: clamp(2.5rem, 7vw, 4.8rem); line-height: 1.02; letter-spacing: 0.009em;
   text-transform: uppercase; margin-bottom: 22px;
 }
 .case__lede { font-size: clamp(1.1rem, 2.2vw, 1.45rem); color: var(--ink-soft); line-height: 1.45; max-width: 58ch; }
@@ -79,7 +79,7 @@
 /* Body */
 .case__body { margin-top: 24px; }
 .case__body section { margin: clamp(40px, 5.5vw, 72px) 0; }
-.case__body h2 { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 600; letter-spacing: -0.025em; text-transform: uppercase; margin-bottom: 18px; }
+.case__body h2 { font-family: var(--font-headline); font-size: clamp(1.55rem, 3.2vw, 2.2rem); font-weight: 400; letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 18px; }
 .case__body p { font-size: 1.1rem; color: var(--ink-soft); line-height: 1.7; margin-bottom: 16px; }
 .case__body p strong { color: var(--ink); font-weight: 600; }
 .case__body em { font-family: var(--font-serif); font-style: italic; color: var(--accent); font-size: 1.08em; }
