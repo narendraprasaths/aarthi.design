@@ -22,22 +22,37 @@
   }
 
   /* ---- Reveal on scroll ---- */
-  var reveals = document.querySelectorAll('.reveal');
-  function revealAll() { reveals.forEach(function (el) { el.classList.add('is-in'); }); }
+  var reveals = [].slice.call(document.querySelectorAll('.reveal'));
+  function vh() { return window.innerHeight || document.documentElement.clientHeight; }
+  function inView(el) {
+    var r = el.getBoundingClientRect();
+    return r.top < vh() * 0.92 && r.bottom > 0;
+  }
+  function reveal(el) { el.classList.add('is-in'); }
+  // Reveal anything currently in view; leave below-fold elements hidden so they
+  // animate in as the user scrolls to them (this preserves the scroll effect).
+  function revealInView() {
+    for (var k = reveals.length - 1; k >= 0; k--) {
+      if (reveals[k].classList.contains('is-in') || inView(reveals[k])) {
+        reveal(reveals[k]);
+        reveals.splice(k, 1);
+      }
+    }
+  }
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
-        if (entry.isIntersecting) { entry.target.classList.add('is-in'); io.unobserve(entry.target); }
+        if (entry.isIntersecting) { reveal(entry.target); io.unobserve(entry.target); }
       });
-    }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
+    }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
     reveals.forEach(function (el) { io.observe(el); });
-    // Safety net: if the observer can't fire for below-fold content (non-window scroll
-    // containers, full-page capture, JS edge cases), reveal everything shortly after load
-    // so content is never left stuck at opacity:0.
-    window.addEventListener('load', function () { setTimeout(revealAll, 1400); });
-  } else {
-    revealAll();
   }
+  // Manual fallback (covers browsers without IntersectionObserver and any element the
+  // observer misses): reveal in-view items on load, scroll and resize.
+  window.addEventListener('scroll', revealInView, { passive: true });
+  window.addEventListener('resize', revealInView);
+  window.addEventListener('load', revealInView);
+  revealInView();
 
   /* ---- Testimonials carousel ---- */
   var track = document.getElementById('tTrack');
